@@ -27,12 +27,22 @@ Content of CSS:
 
 4. What is the css selector of the fourth element?
 ```
-Your answer here
+**div:nth-child(6)** {
+    color: red;
+}
 ```
 
 5. What is the code you use to keep the blue box within the purple?
 ```
-Your answer here
+The blue_box <div> is placed inside purple_box <div>
+where class="parent" represents purple box and class="child" represents blue_box
+<div class="parent">
+      <div class="child">
+        Keep the blue box withiin the purple box using the box-sizing property.
+        You can edit the css code on the developer's tool.
+      </div>
+</div>
+
 ```
 
 > hint: you should apply box-sizing property to the `.child` class. Make the changes on the developer's tool to see immediate UI change.
